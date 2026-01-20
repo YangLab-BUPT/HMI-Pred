@@ -9,7 +9,10 @@ The framework incorporates three primary innovations to ensure high accuracy in 
 1.  **Protein Language Model Integration:** Leverages the **ESM-1v** model to extract rich sequence features, enabling the screening of diverse ligands without reliance on crystal structures.
 2.  **Dual-Path Framework:** Integrates sequence semantics with biological mechanism constraints for robust cross-validation.
 3.  **Specialized Fine-Tuning:** Utilizes the high-quality **BASEHIT** interaction dataset to fine-tune and optimize the prediction of bacteria–immune protein binding interfaces.
-![PDF Preview](https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/YangLab-BUPT/HMI-Pred/raw/main/HMIPred.pdf)
+
+<object data="https://github.com/YangLab-BUPT/HMI-Pred/raw/main/HMIPred.pdf" type="application/pdf" width="100%" height="600px">
+    <p>Unable to display PDF file. <a href="https://github.com/YangLab-BUPT/HMI-Pred/raw/main/HMIPred.pdf">Download instead</a></p>
+</object>
 ---
 
 ## Modules and Usage
@@ -50,3 +53,4 @@ This module executes a three-stage structural analysis pipeline:
 2.  **Docking Simulation:** Performs rigid-body protein-protein docking using [EquiDock](https://github.com/octavian-ganea/equidock_public).
 
 3.  **Quality Assessment:** Evaluates the biological plausibility of the docking conformations using [GDockScore](https://gitlab.com/mcfeemat/gdockscore).
+
